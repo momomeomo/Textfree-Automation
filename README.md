@@ -11,6 +11,9 @@
 <h4>
 If you don’t know how to add an executable to the PATH on Windows, check these links out:
 <li>
+Recommended: https://www.youtube.com/watch?v=dz59GsdvUF8
+</li>
+<li>
 https://www.itprotoday.com/cloud-computing/how-can-i-add-new-folder-my-system-path
 </li>
 <li>
