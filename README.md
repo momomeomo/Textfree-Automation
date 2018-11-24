@@ -12,6 +12,8 @@
 If you don’t know how to add an executable to the PATH on Windows, check these links out:
 <li>
 https://www.itprotoday.com/cloud-computing/how-can-i-add-new-folder-my-system-path
+</li>
+<li>
 https://docs.microsoft.com/en-us/windows/desktop/ProcThread/environment-variables
 </li>
 </h4>
