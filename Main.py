@@ -574,9 +574,141 @@ def Sendtxt12():
 	except:
 		errorcatch = input("ERROR")
 		pass
-	
+
+def Clearmsg1():
+	rack10.delete(0, END)
+	rack11.delete(0, END)
+	rack12.delete(0, END)
+	try:
+		rack13.config(state='normal')
+	except:
+		pass
+	rack13.delete(0, END)
+	rack14.delete(0, END)
+
+def Clearmsg2():
+	rack20.delete(0, END)
+	rack21.delete(0, END)
+	rack22.delete(0, END)
+	try:
+		rack23.config(state='normal')
+	except:
+		pass
+	rack23.delete(0, END)
+	rack24.delete(0, END)
+
+def Clearmsg3():
+	rack30.delete(0, END)
+	rack31.delete(0, END)
+	rack32.delete(0, END)
+	try:
+		rack33.config(state='normal')
+	except:
+		pass
+	rack33.delete(0, END)
+	rack34.delete(0, END)
+
+def Clearmsg4():
+	rack40.delete(0, END)
+	rack41.delete(0, END)
+	rack42.delete(0, END)
+	try:
+		rack43.config(state='normal')
+	except:
+		pass
+	rack43.delete(0, END)
+	rack44.delete(0, END)
+
+def Clearmsg5():
+	rack50.delete(0, END)
+	rack51.delete(0, END)
+	rack52.delete(0, END)
+	try:
+		rack53.config(state='normal')
+	except:
+		pass
+	rack53.delete(0, END)
+	rack54.delete(0, END)
+
+def Clearmsg6():
+	rack60.delete(0, END)
+	rack61.delete(0, END)
+	rack62.delete(0, END)
+	try:
+		rack63.config(state='normal')
+	except:
+		pass
+	rack63.delete(0, END)
+	rack64.delete(0, END)
+
+def Clearmsg7():
+	rack70.delete(0, END)
+	rack71.delete(0, END)
+	rack72.delete(0, END)
+	try:
+		rack73.config(state='normal')
+	except:
+		pass
+	rack73.delete(0, END)
+	rack74.delete(0, END)
+
+def Clearmsg8():
+	rack80.delete(0, END)
+	rack81.delete(0, END)
+	rack82.delete(0, END)
+	try:
+		rack83.config(state='normal')
+	except:
+		pass
+	rack83.delete(0, END)
+	rack84.delete(0, END)
+
+def Clearmsg9():
+	rack90.delete(0, END)
+	rack91.delete(0, END)
+	rack92.delete(0, END)
+	try:
+		rack93.config(state='normal')
+	except:
+		pass
+	rack93.delete(0, END)
+	rack94.delete(0, END)
+
+def Clearmsg10():
+	rack100.delete(0, END)
+	rack101.delete(0, END)
+	rack102.delete(0, END)
+	try:
+		rack103.config(state='normal')
+	except:
+		pass
+	rack103.delete(0, END)
+	rack104.delete(0, END)
+
+def Clearmsg11():
+	rack110.delete(0, END)
+	rack111.delete(0, END)
+	rack112.delete(0, END)
+	try:
+		rack113.config(state='normal')
+	except:
+		pass
+	rack113.delete(0, END)
+	rack114.delete(0, END)
+
+def Clearmsg12():
+	rack120.delete(0, END)
+	rack121.delete(0, END)
+	rack122.delete(0, END)
+	try:
+		rack123.config(state='normal')
+	except:
+		pass
+	rack123.delete(0, END)
+	rack124.delete(0, END)
+
 def help_msg():
-    messagebox.showinfo("help", "Dates are all listed in day/month/year hour:minute\n\nTo use: Log into textfree.us and leave on the contact page, when you press the SMS button it will send the SMS as if the row was completed with all information from the row to the Phone# on the row and will put the hour:minute in 24 hour clock format into the OUT column then locks the column\n\nwrite the phone number in xxxxxxxxxx no () and no dashes\n\n To reset the board and to unlock the OUT columns you will need to restart the program\n\n The log button takes all information on the panels and writes to a .txt file in the same directory as the program's EXE if there is no txt file there it will create one for it and write to it\nTimer's window TITLE updates with the actual timer so can be minimized and you'll still be able to see the timer in seconds\n\nrequires http://chromedriver.chromium.org/downloads \n\n\n 17-11-2018 https://github.com/momomeomo version 1")
+    messagebox.showinfo("help", "Dates are all listed in day/month/year hour:minute\n\nTo use: Log into textfree.us and leave on the contact page, when you press the SMS button it will send the SMS as if the row was completed with all information from the row to the Phone# on the row and will put the hour:minute in 24 hour clock format into the OUT column then locks the column\n\nwrite the phone number in xxxxxxxxxx no () and no dashes\n\n To reset the board and to unlock the OUT columns you will need to restart the program\n\n The log button takes all information on the panels and writes to a .txt file in the same directory as the program's EXE if there is no txt file there it will create one for it and write to it\nTimer's window TITLE updates with the actual timer so can be minimized and you'll still be able to see the timer in seconds\n\nrequires http://chromedriver.chromium.org/downloads \n\n\n 24-11-2018 https://github.com/momomeomo version 2")
 	
 def Log():
 	now = dt.datetime.now()
@@ -688,181 +820,180 @@ main.resizable(0, 0)
 
 # Labels
 # Label(main, text="NEXT RACK OUT IN ", font="-weight bold",).grid(row=1, column=2, columnspan=3)
-Label(main, text="Rack#", font="-weight bold").grid(row=2, column=1)
-Label(main, text="Location", font="-weight bold").grid(row=2, column=2)
-Label(main, text="IN\nTime", font="-weight bold").grid(row=2, column=3)
-Label(main, text="OUT\nTime", font="-weight bold").grid(row=2, column=4)
-Label(main, text="Phone#", font="-weight bold").grid(row=2, column=5)
-Label(main, text="Out", font="-weight bold").grid(row=2, column=6)
-Label(main, text=" ").grid(row=15, column=7)
+Label(main, text="Rack#", font="-weight bold").grid(row=2, column=2)
+Label(main, text="Location", font="-weight bold").grid(row=2, column=3)
+Label(main, text="IN\nTime", font="-weight bold").grid(row=2, column=4)
+Label(main, text="OUT\nTime", font="-weight bold").grid(row=2, column=5)
+Label(main, text="Phone#", font="-weight bold").grid(row=2, column=6)
+Label(main, text="Out", font="-weight bold").grid(row=2, column=7)
+Label(main, text=" ").grid(row=15, column=8)
+Label(main, text=" ").grid(row=15, column=9)
+Label(main, text=" ").grid(row=15, column=10)
+Label(main, text=" ").grid(row=15, column=11)
 
 		# Fields
 		#	Rack#
 rack10 = Entry(main, width=8, justify='center')
-rack10.grid(row=3, column=1, pady=4, padx=2)
+rack10.grid(row=3, column=2, pady=4, padx=2)
 rack20 = Entry(main, width=8, justify='center')
-rack20.grid(row=4, column=1, pady=4, padx=2)
+rack20.grid(row=4, column=2, pady=4, padx=2)
 rack30 = Entry(main, width=8, justify='center')
-rack30.grid(row=5, column=1, pady=4, padx=2)
+rack30.grid(row=5, column=2, pady=4, padx=2)
 rack40 = Entry(main, width=8, justify='center')
-rack40.grid(row=6, column=1, pady=4, padx=2)
+rack40.grid(row=6, column=2, pady=4, padx=2)
 rack50 = Entry(main, width=8, justify='center')       
-rack50.grid(row=7, column=1, pady=4, padx=2)
+rack50.grid(row=7, column=2, pady=4, padx=2)
 rack60 = Entry(main, width=8, justify='center')        
-rack60.grid(row=8, column=1, pady=4, padx=2)
+rack60.grid(row=8, column=2, pady=4, padx=2)
 rack70 = Entry(main, width=8, justify='center')        
-rack70.grid(row=9, column=1, pady=4, padx=2)
+rack70.grid(row=9, column=2, pady=4, padx=2)
 rack80 = Entry(main, width=8, justify='center')
-rack80.grid(row=10, column=1, pady=4, padx=2)
+rack80.grid(row=10, column=2, pady=4, padx=2)
 rack90 = Entry(main, width=8, justify='center')         
-rack90.grid(row=11, column=1, pady=4, padx=2)
+rack90.grid(row=11, column=2, pady=4, padx=2)
 rack100 = Entry(main, width=8, justify='center')
-rack100.grid(row=12, column=1, pady=4, padx=2)
+rack100.grid(row=12, column=2, pady=4, padx=2)
 rack110 = Entry(main, width=8, justify='center')        
-rack110.grid(row=13, column=1, pady=4, padx=2)
+rack110.grid(row=13, column=2, pady=4, padx=2)
 rack120 = Entry(main, width=8, justify='center')          
-rack120.grid(row=14, column=1, pady=4, padx=2)
+rack120.grid(row=14, column=2, pady=4, padx=2)
 
 		#	Location
 rack11 = Entry(main)
-rack11.grid(row=3, column=2, pady=4, padx=2)
-rack21 = Entry(main)       
-rack21.grid(row=4, column=2, pady=4, padx=2)
-rack31 = Entry(main)        
-rack31.grid(row=5, column=2, pady=4, padx=2)
-rack41 = Entry(main)       
-rack41.grid(row=6, column=2, pady=4, padx=2)
-rack51 = Entry(main)       
-rack51.grid(row=7, column=2, pady=4, padx=2)
-rack61 = Entry(main)        
-rack61.grid(row=8, column=2, pady=4, padx=2)
-rack71 = Entry(main)        
-rack71.grid(row=9, column=2, pady=4, padx=2)
+rack11.grid(row=3, column=3, pady=4, padx=2)
+rack21 = Entry(main)      
+rack21.grid(row=4, column=3, pady=4, padx=2)
+rack31 = Entry(main)      
+rack31.grid(row=5, column=3, pady=4, padx=2)
+rack41 = Entry(main)      
+rack41.grid(row=6, column=3, pady=4, padx=2)
+rack51 = Entry(main)      
+rack51.grid(row=7, column=3, pady=4, padx=2)
+rack61 = Entry(main)       
+rack61.grid(row=8, column=3, pady=4, padx=2)
+rack71 = Entry(main)      
+rack71.grid(row=9, column=3, pady=4, padx=2)
 rack81 = Entry(main)
-rack81.grid(row=10, column=2, pady=4, padx=2)
+rack81.grid(row=10, column=3, pady=4, padx=2)
 rack91 = Entry(main)       
-rack91.grid(row=11, column=2, pady=4, padx=2)
+rack91.grid(row=11, column=3, pady=4, padx=2)
 rack101 = Entry(main)
-rack101.grid(row=12, column=2, pady=4, padx=2)
+rack101.grid(row=12, column=3, pady=4, padx=2)
 rack111 = Entry(main)         
-rack111.grid(row=13, column=2, pady=4, padx=2)
+rack111.grid(row=13, column=3, pady=4, padx=2)
 rack121 = Entry(main)         
-rack121.grid(row=14, column=2, pady=4, padx=2)
+rack121.grid(row=14, column=3, pady=4, padx=2)
 
 		#	IN time
 rack12 = Entry(main)
-rack12.grid(row=3, column=3, pady=4, padx=2)
+rack12.grid(row=3, column=4, pady=4, padx=2)
 rack22 = Entry(main)         
-rack22.grid(row=4, column=3, pady=4, padx=2)
+rack22.grid(row=4, column=4, pady=4, padx=2)
 rack32 = Entry(main)         
-rack32.grid(row=5, column=3, pady=4, padx=2)
+rack32.grid(row=5, column=4, pady=4, padx=2)
 rack42 = Entry(main)         
-rack42.grid(row=6, column=3, pady=4, padx=2)
+rack42.grid(row=6, column=4, pady=4, padx=2)
 rack52 = Entry(main)         
-rack52.grid(row=7, column=3, pady=4, padx=2)
+rack52.grid(row=7, column=4, pady=4, padx=2)
 rack62 = Entry(main)         
-rack62.grid(row=8, column=3, pady=4, padx=2)
+rack62.grid(row=8, column=4, pady=4, padx=2)
 rack72 = Entry(main)         
-rack72.grid(row=9, column=3, pady=4, padx=2)
+rack72.grid(row=9, column=4, pady=4, padx=2)
 rack82 = Entry(main)
-rack82.grid(row=10, column=3, pady=4, padx=2)
+rack82.grid(row=10, column=4, pady=4, padx=2)
 rack92 = Entry(main)
-rack92.grid(row=11, column=3, pady=4, padx=2)
+rack92.grid(row=11, column=4, pady=4, padx=2)
 rack102 = Entry(main)
-rack102.grid(row=12, column=3, pady=4, padx=2)
+rack102.grid(row=12, column=4, pady=4, padx=2)
 rack112 = Entry(main)
-rack112.grid(row=13, column=3, pady=4, padx=2)
+rack112.grid(row=13, column=4, pady=4, padx=2)
 rack122 = Entry(main)
-rack122.grid(row=14, column=3, pady=4, padx=2)
+rack122.grid(row=14, column=4, pady=4, padx=2)
 
 		#	OUT time
 rack13 = Entry(main)
-rack13.grid(row=3, column=4, pady=4, padx=2)
-rack23 = Entry(main)         
-rack23.grid(row=4, column=4, pady=4, padx=2)
-rack33 = Entry(main)         
-rack33.grid(row=5, column=4, pady=4, padx=2)
-rack43 = Entry(main)        
-rack43.grid(row=6, column=4, pady=4, padx=2)
-rack53 = Entry(main)         
-rack53.grid(row=7, column=4, pady=4, padx=2)
-rack63 = Entry(main)
-rack63.grid(row=8, column=4, pady=4, padx=2)
-rack73 = Entry(main)
-rack73.grid(row=9, column=4, pady=4, padx=2)
-rack83 = Entry(main)
-rack83.grid(row=10, column=4, pady=4, padx=2)
-rack93 = Entry(main)
-rack93.grid(row=11, column=4, pady=4, padx=2)
-rack103 = Entry(main)
-rack103.grid(row=12, column=4, pady=4, padx=2)
-rack113 = Entry(main)
-rack113.grid(row=13, column=4, pady=4, padx=2)
-rack123 = Entry(main)
-rack123.grid(row=14, column=4, pady=4, padx=2)
+rack13.grid(row=3, column=5, pady=4, padx=2)
+rack23 = Entry(main)       
+rack23.grid(row=4, column=5, pady=4, padx=2)
+rack33 = Entry(main)        
+rack33.grid(row=5, column=5, pady=4, padx=2)
+rack43 = Entry(main)       
+rack43.grid(row=6, column=5, pady=4, padx=2)
+rack53 = Entry(main)        
+rack53.grid(row=7, column=5, pady=4, padx=2)
+rack63 = Entry(main)		
+rack63.grid(row=8, column=5, pady=4, padx=2)
+rack73 = Entry(main)	
+rack73.grid(row=9, column=5, pady=4, padx=2)
+rack83 = Entry(main)		
+rack83.grid(row=10, column=5, pady=4, padx=2)
+rack93 = Entry(main)			
+rack93.grid(row=11, column=5, pady=4, padx=2)
+rack103 = Entry(main)			
+rack103.grid(row=12, column=5, pady=4, padx=2)
+rack113 = Entry(main)			
+rack113.grid(row=13, column=5, pady=4, padx=2)
+rack123 = Entry(main)			
+rack123.grid(row=14, column=5, pady=4, padx=2)
 
 		#	Phone#
 rack14 = Entry(main)
-rack14.grid(row=3, column=5, pady=4, padx=2)
+rack14.grid(row=3, column=6, pady=4, padx=2)
 rack24 = Entry(main)         
-rack24.grid(row=4, column=5, pady=4, padx=2)
+rack24.grid(row=4, column=6, pady=4, padx=2)
 rack34 = Entry(main)         
-rack34.grid(row=5, column=5, pady=4, padx=2)
+rack34.grid(row=5, column=6, pady=4, padx=2)
 rack44 = Entry(main)         
-rack44.grid(row=6, column=5, pady=4, padx=2)
+rack44.grid(row=6, column=6, pady=4, padx=2)
 rack54 = Entry(main)         
-rack54.grid(row=7, column=5, pady=4, padx=2)
+rack54.grid(row=7, column=6, pady=4, padx=2)
 rack64 = Entry(main)         
-rack64.grid(row=8, column=5, pady=4, padx=2)
+rack64.grid(row=8, column=6, pady=4, padx=2)
 rack74 = Entry(main)        
-rack74.grid(row=9, column=5, pady=4, padx=2)
+rack74.grid(row=9, column=6, pady=4, padx=2)
 rack84 = Entry(main)
-rack84.grid(row=10, column=5, pady=4, padx=2)
+rack84.grid(row=10, column=6, pady=4, padx=2)
 rack94 = Entry(main)         
-rack94.grid(row=11, column=5, pady=4, padx=2)
+rack94.grid(row=11, column=6, pady=4, padx=2)
 rack104 = Entry(main)
-rack104.grid(row=12, column=5, pady=4, padx=2)
+rack104.grid(row=12, column=6, pady=4, padx=2)
 rack114 = Entry(main)          
-rack114.grid(row=13, column=5, pady=4, padx=2)
+rack114.grid(row=13, column=6, pady=4, padx=2)
 rack124 = Entry(main)          
-rack124.grid(row=14, column=5, pady=4, padx=2)
+rack124.grid(row=14, column=6, pady=4, padx=2)
 
 		#	Out
-Button(main, text="SMS", command=Sendtxt1).grid(row=3, column=6)
-Button(main, text="SMS", command=Sendtxt2).grid(row=4, column=6)
-Button(main, text="SMS", command=Sendtxt3).grid(row=5, column=6)
-Button(main, text="SMS", command=Sendtxt4).grid(row=6, column=6)
-Button(main, text="SMS", command=Sendtxt5).grid(row=7, column=6)
-Button(main, text="SMS", command=Sendtxt6).grid(row=8, column=6)
-Button(main, text="SMS", command=Sendtxt7).grid(row=9, column=6)
-Button(main, text="SMS", command=Sendtxt8).grid(row=10, column=6)
-Button(main, text="SMS", command=Sendtxt9).grid(row=11, column=6)
-Button(main, text="SMS", command=Sendtxt10).grid(row=12, column=6)
-Button(main, text="SMS", command=Sendtxt11).grid(row=13, column=6)
-Button(main, text="SMS", command=Sendtxt12).grid(row=14, column=6)
+Button(main, text="SMS", command=Sendtxt1).grid(row=3, column=7)
+Button(main, text="SMS", command=Sendtxt2).grid(row=4, column=7)
+Button(main, text="SMS", command=Sendtxt3).grid(row=5, column=7)
+Button(main, text="SMS", command=Sendtxt4).grid(row=6, column=7)
+Button(main, text="SMS", command=Sendtxt5).grid(row=7, column=7)
+Button(main, text="SMS", command=Sendtxt6).grid(row=8, column=7)
+Button(main, text="SMS", command=Sendtxt7).grid(row=9, column=7)
+Button(main, text="SMS", command=Sendtxt8).grid(row=10, column=7)
+Button(main, text="SMS", command=Sendtxt9).grid(row=11, column=7)
+Button(main, text="SMS", command=Sendtxt10).grid(row=12, column=7)
+Button(main, text="SMS", command=Sendtxt11).grid(row=13, column=7)
+Button(main, text="SMS", command=Sendtxt12).grid(row=14, column=7)
+
+#Clear
+Button(main, text="Clear", command=Clearmsg1).grid(row=3, column=1)
+Button(main, text="Clear", command=Clearmsg2).grid(row=4, column=1)
+Button(main, text="Clear", command=Clearmsg3).grid(row=5, column=1)
+Button(main, text="Clear", command=Clearmsg4).grid(row=6, column=1)
+Button(main, text="Clear", command=Clearmsg5).grid(row=7, column=1)
+Button(main, text="Clear", command=Clearmsg6).grid(row=8, column=1)
+Button(main, text="Clear", command=Clearmsg7).grid(row=9, column=1)
+Button(main, text="Clear", command=Clearmsg8).grid(row=10, column=1)
+Button(main, text="Clear", command=Clearmsg9).grid(row=11, column=1)
+Button(main, text="Clear", command=Clearmsg10).grid(row=12, column=1)
+Button(main, text="Clear", command=Clearmsg11).grid(row=13, column=1)
+Button(main, text="Clear", command=Clearmsg12).grid(row=14, column=1)
 
 		# Buttons
 Button(main, text="Help", command=help_msg).grid(row=1, column=0, pady=4)
 Button(main, text="Log", command=Log).grid(row=1, column=1, pady=4)
-# Button(main, text="Test", command=prntLn).grid(row=1, column=2, pady=4)
 
 
 
 mainloop()
-
-
-# https://stackoverflow.com/questions/459083/how-do-you-run-your-own-code-alongside-tkinters-event-loop
-
-# def task():
-# 	while len(timer.get()) != 0:
-# 		if timer.get() == 0:
-# 			SendSMS()
-# 			main.after(2000, task)
-# 		else:
-# 			main.after(1000, task)  # reschedule event in 1 second
-# 			n = timer.get()
-# 			t = int(n)
-# 			t -= 1
-# 			timer.delete(0, END)
-# 			timer.insert(0, t)
-# 			main.after(2000, task)

@@ -102,40 +102,40 @@ Label:
 Gui, Submit, NoHide ;this command submits the guis' datas' state
 WinActivate, Main
 If Opt1 = 1
-  Click, 620, 116
+  Click, 670, 116
 
 If Opt2 = 1
-  Click, 620, 143
+  Click, 670, 143
 
 If Opt3 = 1
-  Click, 620, 165
+  Click, 670, 165
 
 If Opt4 = 1
-  Click, 620, 197
+  Click, 670, 197
 
 If Opt5 = 1
-  Click, 620, 225
+  Click, 670, 225
 
 If Opt6 = 1
-  Click, 620, 254
+  Click, 670, 254
 
 If Opt7 = 1
-  Click, 620, 279
+  Click, 670, 279
 
 If Opt8 = 1
-  Click, 620, 306
+  Click, 670, 306
 
 If Opt9 = 1
-  Click, 620, 335
+  Click, 670, 335
 
 If  Opt10 = 1
-  Click, 620, 360
+  Click, 670, 360
 
 If  Opt11 = 1
-  Click, 620, 390
+  Click, 670, 390
 
 If  Opt12 = 1
-  Click, 620, 414
+  Click, 670, 414
 
 Return
 
