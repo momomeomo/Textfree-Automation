@@ -1,4 +1,5 @@
 <h1> Textfree Automation </h1>
+Current version: 2
 <p>https://textfree.us</p>
     <br>
 <h2>Requirements:</h2>
