@@ -1,0 +1,141 @@
+﻿
+SendMode Input
+#KeyHistory 0
+#NoEnv
+#SingleInstance Force
+SetTitleMatchMode, 2
+DetectHiddenWindows, off
+ListLines, off
+
+F1::
+If WinExist("Main")
+{	;109
+	WinActivate, Main
+	Send `t
+	Send 1
+	Send `t
+	Send 2
+	Send `t
+	Send 3
+	Send `t
+	Send 4
+	Send `t
+	Send 5
+	Send `t
+	Send 6
+	Send `t
+	Send 7
+	Send `t
+	Send 8
+	Send `t
+	Send 9
+	Send `t
+	Send 10
+	Send `t
+	Send 11
+	Send `t
+	Send 12
+	Send `t
+	Send 13
+	Send `t
+	Send 14
+	Send `t
+	Send 15
+	Send `t
+	Send 16
+	Send `t
+	Send 17
+	Send `t
+	Send 18
+	Send `t
+	Send 19
+	Send `t
+	Send 20
+	Send `t
+	Send 21
+	Send `t
+	Send 22
+	Send `t
+	Send 23
+	Send `t
+	Send 24
+	Send `t
+	Send 25
+	Send `t
+	Send 26
+	Send `t
+	Send 27
+	Send `t
+	Send 28
+	Send `t
+	Send 29
+	Send `t
+	Send 30
+	Send `t
+	Send 31
+	Send `t
+	Send 32
+	Send `t
+	Send 33
+	Send `t
+	Send 34
+	Send `t
+	Send 35
+	Send `t
+	Send 36
+	Send `t
+	Send 37
+	Send `t
+	Send 38
+	Send `t
+	Send 39
+	Send `t
+	Send 40
+	Send `t
+	Send 41
+	Send `t
+	Send 42
+	Send `t
+	Send 43
+	Send `t
+	Send 44
+	Send `t
+	Send 45
+	Send `t
+	Send 46
+	Send `t
+	Send 47
+	Send `t
+	Send 48
+	Send `t
+	Send 49
+	Send `t
+	Send 50
+	Send `t
+	Send 51
+	Send `t
+	Send 52
+	Send `t
+	Send 53
+	Send `t
+	Send 54
+	Send `t
+	Send 55
+	Send `t
+	Send 56
+	Send `t
+	Send 57
+	Send `t
+	Send 58
+	Send `t
+	Send 59
+	Send `t
+	Send 60
+}else
+	{ 
+	MsgBox, Window is not detected
+	IfMsgBox, OK
+		ExitApp
+	}
+return
+
