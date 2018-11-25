@@ -2,7 +2,7 @@
 SendMode Input
 #KeyHistory 0
 #NoEnv
-#SingleInstance Force
+#SingleInstance Off
 SetTitleMatchMode, 3
 SetTitleMatchMode, Slow
 DetectHiddenWindows, off
@@ -65,8 +65,8 @@ CountDownTimer:
 cd_Duration--
 WinSetTitle ahk_id %cd_Gui%,, %cd_Duration% ; Refresh tray button text
 if cd_Duration = 0
-    StopCountDown()
-    Return
+  StopCountDown()
+  Return
 
 TimeEdited: ; Update duration text
 GuiControl,, cd_DurationText, % "Duration: " GetDurationInSec() " seconds"
@@ -95,7 +95,7 @@ StopCountDown()
   sleep, 100
   WinActivate, CountDown
   ControlClick, Button14, CountDown, , , , , ,
-}
+} ;ahk_id %cd_Gui%
 
 ;new
 Label:
