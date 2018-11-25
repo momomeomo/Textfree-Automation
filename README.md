@@ -1,6 +1,5 @@
 <h1> Textfree Automation </h1>
-<p>Current version: 2
-https://www.dropbox.com/home/compiled
+<p>Current version: https://www.dropbox.com/home/compiled
     <br>
 https://textfree.us
 </p>
