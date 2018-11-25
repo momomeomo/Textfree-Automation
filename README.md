@@ -1,6 +1,9 @@
 <h1> Textfree Automation </h1>
-Current version: 2
-<p>https://textfree.us</p>
+<p>Current version: 2
+https://www.dropbox.com/home/compiled
+    <br>
+https://textfree.us
+</p>
     <br>
 <h2>Requirements:</h2>
 <li>Main.exe</li>
