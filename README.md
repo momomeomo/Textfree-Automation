@@ -3,7 +3,7 @@
     <br>
 https://textfree.us
 </p>
-<p>Microsoft and other anti-virus will false-flag it, it will need to be allowed through</p>
+<p>Microsoft and other anti-virus will delete the main.exe as a false positive, it will need to be allowed/exluded through the programs</p>
     <br>
 <h2>Requirements:</h2>
 <li>Main.exe</li>
