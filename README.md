@@ -4,7 +4,7 @@
 https://textfree.us
 </p>
 <p>
-Microsoft and other anti-virus MIGHT delete/quarantine the main.exe as a false positive, **the false-positive seems random and i've been unable to figure out why** it will need to be allowed/exluded through the programs
+Microsoft and other anti-virus MIGHT delete/quarantine the main.exe as a false positive, <b>the false-positive seems random and i've been unable to figure out why</b>, it will need to be allowed/exluded through the programs
 </p>
 <p>
 If anyone knows whats causing false-positives in this program please open a issue on it
