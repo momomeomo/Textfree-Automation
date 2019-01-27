@@ -3,6 +3,7 @@
     <br>
 https://textfree.us
 </p>
+<p>Microsoft and other anti-virus will false-flag it, it will need to be allowed through</p>
     <br>
 <h2>Requirements:</h2>
 <li>Main.exe</li>
