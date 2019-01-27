@@ -7,7 +7,7 @@ https://textfree.us
 Microsoft and other anti-virus may delete/quarantine the main.exe as a false positive, it will need to be allowed/exluded through the programs
 </p>
 <p>
-If anyone knows what tends to cause false-positives in this program please open a issue on it
+If anyone knows whats causing false-positives in this program please open a issue on it
 </p>
     <br>
 <h2>Requirements:</h2>
