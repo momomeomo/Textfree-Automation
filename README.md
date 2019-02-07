@@ -1,6 +1,6 @@
 ![Example](dab.png)
 <h1> Textfree Automation </h1>
-<p>Current version: https://www.dropbox.com/home/compiled
+<p>Current version: https://www.dropbox.com/sh/i1vfq3kfyl9me1q/AABnMjEKDQyeDzmacQhZ0rL9a?dl=0
     <br>
 https://textfree.us
 </p>
